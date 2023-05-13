@@ -8,5 +8,15 @@ public class Test {
         Coordenada c2 = new Coordenada(1.3, 5.3);
         Coordenada c3 = c1;
         Coordenada c4 = c2;
+
+        // imprimir cada coordenada
+        System.out.println("c1: " + c1);
+        System.out.println("c2: " + c2);
+        System.out.println("c3: " + c3);
+        System.out.println("c4: " + c4 + "\n");
+
+        // imprimir la distancia entre c1 y c2
+        System.out.println("Distancia entre c1 y c2: " + c1.distancia(c2));
+
     }
 }
