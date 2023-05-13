@@ -15,6 +15,9 @@ public class Test {
         System.out.println("c3: " + c3);
         System.out.println("c4: " + c4 + "\n");
 
+        // metodo equals
+        System.out.println("c1.equals(c2): " + c1.equals(c2));
+
         // imprimir la distancia entre c1 y c2
         System.out.println("Distancia entre c1 y c2: " + c1.distancia(c2));
 

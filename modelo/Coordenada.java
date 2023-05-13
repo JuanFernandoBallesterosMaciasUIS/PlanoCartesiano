@@ -32,7 +32,7 @@ public class Coordenada {
         this.y = y;
     }
 
-    // metodo para calcular la distancia entre dos punto en el plano
+    // Metodo para calcular la distancia entre dos punto en el plano
     public double distancia(Coordenada c) {
         double dx = this.x - c.x;
         double dy = this.y - c.y;
