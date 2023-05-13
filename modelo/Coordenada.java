@@ -1,9 +1,12 @@
 package modelo;
 
 public class Coordenada {
+
+    // Atributos
     private double x;
     private double y;
     
+    // Constructores
     public Coordenada() {
     }
 
@@ -12,7 +15,7 @@ public class Coordenada {
         this.y = y;
     }
 
-    
+    // Metodos
     public double getX() {
         return x;
     }
@@ -29,6 +32,6 @@ public class Coordenada {
         this.y = y;
     }
     
-    
+
 
 }
